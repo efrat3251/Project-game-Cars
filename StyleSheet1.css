@@ -1,0 +1,179 @@
+﻿html,body{
+    width:100%;
+    height:100%;
+}
+
+body {
+    padding:0;
+    margin:0;
+    background-color:gainsboro;
+}
+b:link {
+    color: darkorange;
+    background-color: transparent;
+}
+#game {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#games {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #1bc200;
+    margin: auto;
+    background-image: url('picture/2022-04-28 (2).png');
+    /*animation: slide 4s infinite linear;*/
+    background-size: 100%;
+    border: inset;
+    
+}
+@keyframes slide {
+0% {top: -100px;} 
+100% {top: 500px;}
+ }
+
+#block {
+    width: 14%;
+    height: 25%;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: slide 0.7s infinite linear;
+    background-image: url('picture/gray car.png');
+    left: 32%;
+    background-size: 100%;
+}
+#character {
+    width: 11%;
+    background-repeat: no-repeat;
+    height: 25%;
+    position: relative;
+    top: 52%;
+    left: 59%;
+    background-image: url('picture/orange car.png');
+    background-size: 100%;
+}
+
+
+#record {
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    left: 9%;
+    top: 25%;
+    background-color: white;
+    font-size: 150%;
+    text-align: center;
+    border: inset;
+}
+#count {
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    background-color:white;
+    font-size: 150%;
+    text-align: center;
+    border: inset;
+}
+
+#player {
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    left: 9%;
+    top: 75%;
+    background-color:white;
+    font-size: 150%;
+    text-align: center;
+    border: inset;
+}
+
+#start {
+    width: 55%;
+    height: 90%;
+    /*display: block;
+    position: absolute;
+    left: 10%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    top: -20%;
+    position: absolute;
+    left: 20%;
+}
+
+#counter {
+    font-size: 150%;
+}
+
+#degel1 {
+    position: absolute;
+    left: 5.5%;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    background-image: url('picture/degel.png');
+}
+#degel2 {
+    position: absolute;
+    right: 5.5%;
+    background-image: url('picture/degel.png');
+}
+#deshe1 {
+    /* background-image: url('picture/כביש 2.png');*/
+    background-image: url('picture/דשא.png');
+    background-color: black;
+    width: 15%;
+    width: 19%;
+    height: 100%;
+    position: absolute;
+    left: 3%;
+    /* background-size: 100%;*/
+}
+
+#deshe2 {
+    background-image: url('picture/דשא.png');
+    width: 10%;
+    width: 19%;
+    height: 100%;
+    position: absolute;
+    right: 3%;
+    background-color: black;
+}
+
+#name {
+    background-color: aliceblue;
+    width: 25%;
+    height: 20%;
+    top: 70%;
+    position: absolute;
+    left: 37%;
+    font-size: 200%;
+    text-align: center;
+    border: inset;
+}
+
+#nameDiv {
+    height: 40%;
+        /*#c75d2e*/
+    BACKGROUND-COLOR: darkorange;
+    position: relative;
+    bottom: 34%;
+    right: 5%;
+    z-index: 50;
+    width: 10%;
+    display: none;
+    animation-name: open;
+    animation-fill-mode: forwards;
+    animation-duration: 0.8s;
+    box-shadow: 0 0 17px 4px #c79e2e;
+}
+
+
+      
+    
+
+    
+
